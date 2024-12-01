@@ -1,0 +1,40 @@
+use super::super::Day;
+
+pub struct Day--INSERT--NUMBER--;
+
+impl Day for Day--INSERT--NUMBER-- {
+    fn run_part1(&self, input: &str) -> Option<u32> {
+        todo!()
+    }
+
+    fn run_part2(&self, input: &str) -> Option<u32> {
+        todo!()
+
+
+    }
+}
+
+#[cfg(test)]
+mod test {
+    use crate::days::Day;
+    use super::Day--INSERT--NUMBER--;
+
+    #[test]
+    fn test_part1() {
+        let input = include_str!("testinputp1.txt");
+        let res =Day--INSERT--NUMBER--.run_part1(input);
+
+        assert_eq!(res,Some(todo!()))
+
+    }
+
+    #[test]
+    fn test_part2() {
+        let input = include_str!("testinputp2.txt");
+        let res =Day--INSERT--NUMBER--.run_part2(input);
+
+        assert_eq!(res,Some(todo!()))
+
+    }
+
+}
