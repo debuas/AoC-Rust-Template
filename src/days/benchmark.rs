@@ -36,7 +36,7 @@ impl BenchMarkSetting<'_> {
         let days : Vec<u8> = match self {
             BenchMarkSetting::Day(d) => {vec![*d]}
             BenchMarkSetting::Days(ref d) => {Vec::from(*d)}
-            BenchMarkSetting::DayRange { ref min, ref max } => {(*min..*max).collect()}
+            BenchMarkSetting::DayRange { ref min, ref max } => {(*min..=*max).collect()}
             BenchMarkSetting::All => {(1..25).collect() }
         };
 
